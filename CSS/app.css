@@ -99,13 +99,13 @@ html {
 
 .socialsContainer {
 	margin-left: 36%;
-	margin-top: 7%;
+	/*margin-top: 7%;*/
 	position: absolute;
 }
 
 .socials div{
   display: inline-block;
-  position: fixed
+  /*position: fixed*/
   margin: auto;
   position: relative;
 }
@@ -115,7 +115,7 @@ html {
   height: 60px;
   background: #4A2040;
   position: relative;
-   top: 100px;
+   top: 70px;
    text-align: center;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -167,4 +167,29 @@ html {
 }
 #hexagon:hover:before{
   border-bottom: 25px solid #EC008C;
+}
+
+
+/*   COMING SOON TEXT */
+@font-face {
+font-family: thin;
+src: url("./fonts/genome/Genome-Thin.otf") format("opentype");
+}
+
+#txt-div {
+  margin-right: 20px;
+}
+
+#coming-soon-txt {
+  font-family: thin;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-top: 0 auto;
+}
+
+#first-txt {
+  font-family: thin;
+  padding-left: 400px;
+  padding-right: 400px;
+  margin-top: 0 auto;
 }
