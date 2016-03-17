@@ -1,5 +1,5 @@
 html {
-	background-color: #FF1654
+	background-color: #EBBAB9
 }
 
 .cs-text {
@@ -30,7 +30,8 @@ html {
 .cs-text-cut span {
 	display: block;
 	line-height: 180px;
-	color: rgba(255,255,255,1);
+  /*color: rgba(255,255,255,1);*/
+	color: #A55C5C;
 	font-size: 180px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -53,7 +54,7 @@ html {
 	line-height: 50px;
 	text-indent: 115px;
 	position: absolute;
-	top: 23%;
+	top: 30.5%;
 	margin-top: -25px;
 	color: white;
 	text-shadow: 0 0 0 rgba(255,255,255,0.9);
@@ -97,7 +98,7 @@ html {
 }
 
 .socialsContainer {
-	margin-left: 35%;
+	margin-left: 36%;
 	margin-top: 7%;
 	position: absolute;
 }
