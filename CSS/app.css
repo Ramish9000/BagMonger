@@ -1,5 +1,6 @@
-html {
-	background-color: #EBBAB9
+body {
+  /*background-color: #EBBAB9*/
+	background-image: url('./Images/background.png')
 }
 
 .cs-text {
@@ -31,7 +32,7 @@ html {
 	display: block;
 	line-height: 180px;
   /*color: rgba(255,255,255,1);*/
-	color: #A55C5C;
+	color: #735B82;
 	font-size: 180px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -176,20 +177,29 @@ font-family: thin;
 src: url("./fonts/genome/Genome-Thin.otf") format("opentype");
 }
 
+@font-face {
+font-family: mistis;
+src: url("./fonts/mistis/bells.ttf") format("truetype");
+}
+
 #txt-div {
   margin-right: 20px;
 }
 
-#coming-soon-txt {
-  font-family: thin;
-  padding-left: 150px;
-  padding-right: 150px;
-  margin-top: 0 auto;
-}
-
 #first-txt {
+  font-family: 'Poiret One', cursive;
   font-family: thin;
   padding-left: 400px;
   padding-right: 400px;
   margin-top: 0 auto;
 }
+
+#coming-soon-txt {
+  font-family: 'Poiret One', cursive;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-top: 0 auto;
+  color: #4A2040
+}
+
+
