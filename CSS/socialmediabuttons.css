@@ -1,4 +1,4 @@
-.reviews{
+/*.reviews{
   margin-top: 28px;
 }
 .reviews div{
@@ -6,23 +6,21 @@
   positon: absolute;
   left: 260px;
   //left: 156px;
+}*/
+
+.socialsContainer {
+  padding-left: 450px;
+  padding-top: 270px;
 }
 .socials div{
   display: inline-block;
+
 }
 .fa.fa-facebook, .fa.fa-linkedin, .fa.fa-google-plus, .fa.fa-youtube, .fa.fa-twitter, .fa.fa-rss, .fa.fa-yelp,.fa.fa-github,.fa.fa-linux, .fa.fa-music{
   color: white;
   font-size: 50px;
   line-height: 60px;
   text-shadow: 2px 2px 10px black;
-}
-
-.fa.fa-music{
-  font-size: 32px;
-  position: relative;
-  bottom: 8px;
-  right: 1px;
-  padding: 3px;
 }
 
 #hexagon {
