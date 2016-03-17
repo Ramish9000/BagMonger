@@ -16,7 +16,7 @@
   display: inline-block;
 
 }
-.fa.fa-facebook, .fa.fa-linkedin, .fa.fa-google-plus, .fa.fa-youtube, .fa.fa-twitter, .fa.fa-rss, .fa.fa-yelp,.fa.fa-github,.fa.fa-linux, .fa.fa-music{
+.fa.fa-facebook, .fa.fa-twitter, .fa.fa-instagram{
   color: white;
   font-size: 50px;
   line-height: 60px;
@@ -26,7 +26,7 @@
 #hexagon {
   width: 100px;
   height: 60px;
-  background: #4A2040;
+  background: #C880B7;
   position: relative;
    top: 100px;
    text-align: center;
@@ -47,7 +47,7 @@
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 25px solid #4A2040;
+  border-bottom: 25px solid #C880B7;
     -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -63,7 +63,7 @@
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-top: 25px solid #4A2040;
+  border-top: 25px solid #C880B7;
     -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
